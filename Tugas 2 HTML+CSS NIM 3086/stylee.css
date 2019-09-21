@@ -1,0 +1,69 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url(D:/GAMBAR/pipes.png);
+	font-family: sans-serif;
+
+}
+
+
+label{
+	position: center;
+}
+
+.pertama {
+	background-color:  #cce6ff;
+	opacity: 0,9;
+	text-align: center;
+	position: center;
+	width: 40%;
+	margin-left: 50px;
+	margin-top: 20px;
+	color: black;
+	font-size: 18px;
+	float: left;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 35px;
+	padding-bottom: 35px;
+
+   }
+
+button[type="Submit"]{
+	margin-bottom: 28px;
+	width: 120px;
+	height: 32px;
+	background: #f44336;
+	border: none;
+	border-radius: 2px; 
+	color: #fff;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	transition: 0,2s ease;
+	cursor: pointer;
+}
+
+.kedua {
+	background-color: #cce6ff;
+	opacity: 0,9;
+	text-align: center;
+	position: center;
+	width: 40%;
+	margin-left: 50px;
+	margin-top: 20px;
+	color: black;
+	font-size: 18px;
+	float: left;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 35px;
+	padding-bottom: 35px;
+
+}
+
+
+
+
+
+
+
