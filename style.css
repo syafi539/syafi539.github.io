@@ -1,0 +1,190 @@
+body{
+    background: url(background2.jpg);
+    background-size: 100%;
+}
+.bodyhome{
+    background: url(background1.jpg);
+    background-size: 100%;
+}
+.kotak{
+    width: 350px;
+    margin: 80px auto;
+    padding: 30px 20px;
+    background: transparent;
+    border-radius: 50px;
+}
+.bio{
+    text-shadow: 1px 1px black;
+    background: #c68c53;
+    opacity: 0.9;
+    border-radius: 5px;
+}
+.eop1{
+    font-family: Freestyle Script;
+    color: #00CC00;
+    font-size: 48pt;
+    text-shadow: 2px 2px black;
+}
+.eop2{
+    font-family: Freestyle Script;
+    color: #00CC00;
+    font-size: 28pt;
+    text-shadow: 1px 1px black;
+}
+.logo{
+    height: 250px;
+    width: 250px;
+    margin-top: -100px;
+}
+.logo2{
+    height: 110px;
+    width: 110px;
+    position: center;
+}
+.next{
+    height: 50px;
+    width: 350px;
+    position: center;
+}
+
+.form{
+    width: 250px;
+    height:30px;     
+    border-radius: 10px;
+    text-align: center;   
+}
+.f_hp{
+    width: 200px;
+    height: 25px;
+}
+
+input[type=text]{
+    float: middle;
+    text-align: center;
+    width: 90%;
+    padding: 10px;
+    margin: 5px auto;
+    padding: 10px 10px;
+    background-image: url("email.svg");
+    background-repeat: no-repeat;
+    padding-left: 18px !important;
+    background-size: 8%;
+    background-position-y: 100%;
+    border-radius: 20px;
+}
+h1{
+    color: green;
+    text-align: center;
+    margin-top: 2px;
+}
+p{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+.kotak_login{
+	width: 350px;
+	background: white;
+	margin: 80px auto;
+	padding: 30px 20px;
+	border-radius: 30px;
+    opacity: 0.9;
+}
+.kotakregistrasi{
+    width: 350px;
+    background: white;
+    margin: 80px auto;
+    padding: 30px 20px;
+    border-radius: 30px;
+    opacity: 0.9;
+}
+img.logo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+h1{
+	color: green;
+	text-align: center;
+}
+h2{
+	text-align: center;
+}
+h3{
+    text-align: center;
+}
+input[type=text]{
+	float: middle;
+	text-align: center;
+	width: 90%;
+	padding: 10px;
+	margin: 5px auto;
+	padding: 10px 10px;
+	background-image: url("email.svg");
+    background-repeat: no-repeat;
+    padding-left: 18px !important;
+    background-size: 8%;
+    background-position-y: 100%;
+    border-radius: 20px;
+}
+input[type=password]{
+	float: middle;
+	text-align: center;
+	width: 90%;
+	padding: 10px;
+	margin: 5px auto;
+	padding: 10px 10px;
+	background-image: url("kata sandi.svg");
+    background-repeat: no-repeat;
+    padding-left: 18px !important;
+    background-size: 8%;
+    background-position-y: 100%;
+    border-radius: 20px;
+}
+button[type=Buat_Akun]{
+    color: white;
+	text-align: center;
+    padding: 5px;
+    width: 50%;
+    background: red;
+    cursor: pointer;
+    border-radius: 20px;
+}
+button[type=Lanjutkan]{
+    color: white;
+	text-align: center;
+    padding: 5px;
+    width: 47%;
+    background: green;
+    cursor: pointer;
+    border-radius: 20px;
+}
+button[type=facebook]{
+    color: white;
+	text-align: center;
+    padding: 5px;
+    width: 95%;
+    background: #0066ff;
+    cursor: pointer;
+    background-image: url("facebook.svg");
+    background-repeat: no-repeat;
+    padding-left: 18px !important;
+    background-size: 8%;
+    background-position-y: 100%;
+    border-radius: 20px;
+}
+button[type=google]{
+    color: white;
+	text-align: center;
+	margin-top: 5px;
+    padding: 5px;
+    width: 95%;
+    background: orange;
+    cursor: pointer;
+    background-image: url("google.svg");
+    background-repeat: no-repeat;
+    padding-left: 18px !important;
+    background-size: 8%;
+    background-position-y: 100%;
+    border-radius: 20px;
+}
