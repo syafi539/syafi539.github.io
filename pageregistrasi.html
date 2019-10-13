@@ -8,17 +8,16 @@
 <div class="kotakregistrasi">
   <form align="center">
     <h1><b>Daftar Akun</b></h1>
-    <h3>Ini Cepat dan Mudah</h3>
-      <input type="textreg" placeholder="Masukkan nama lengkap anda" class="form"><br><br>
-      <input type="emailreg" placeholder="Masukkan Email anda" class="form"><br><br>
-      <input type="passwordreg" placeholder="kata sandi baru" class="form"><br><br>
-      <label>Tanggal lahir</label><br>
-      <select><option>1</option><option>2</option></select><select><option>Januari</option><option>Februari</option></select><select><option>1999</option><option>2000</option></select><br><br>
-      <select><option>+62</option></select>
-      <input type="number" placeholder="Masukkan No.Hp anda" class="f_hp" ><br><br>
-      <input type="radio" name="gender" id="rd">Laki-laki<br>
-      <input type="radio" name="gender">Perempuan<br><br>
-      <input type="submit" value="Buat Akun">
+      <input type="textreg" placeholder="Masukkan Nama Lengkap" class="form"><br><br>
+      <input type="email" name="email" placeholder="Masukkan Email" class="form"><br><br>
+      <input type="passwordreg" name="password" placeholder="kata sandi baru" class="form"><br><br>
+      <h2>Tanggal Lahir:</h2>
+      <input type="date" name="tanggal" /><br>
+      <h2>Jenis kelamin:</h2>
+        <label><input type="radio" name="jenis_kelamin" value="laki-laki" /> Laki-laki</label>
+        <label><input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan</label>
+      <br><br><br>
+    <a href="Login.html"><button type="Lanjutkan"> Buat Akun Sekarang </button></a>
   </form>
 </div>
 </body>

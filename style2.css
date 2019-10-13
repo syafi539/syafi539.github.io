@@ -1,0 +1,173 @@
+body
+{
+  background-image: url(img/bg2.jpg);
+  font-family: Arial,Helvetica,sans-serif;
+  height: 100%;
+  background-size: 100%;
+  background-attachment: fixed;
+  margin: 0;
+  background-repeat: no-repeat;
+}
+h1,h3,h5,h6
+{
+  text-transform: capitalize;
+}
+h2{
+  margin-top: 5px;
+  margin-bottom: -5px;
+  font-family: Freestyle Script;
+  color: #00CC00;
+  font-size: 50pt;
+  text-shadow: 2px 2px black;
+}
+h4{
+  text-align: left;
+}
+a
+{
+  text-decoration: none;
+}
+li
+{
+  list-style: none;
+}
+ahsg
+*{
+  box-sizing: border-box;
+}
+.navbar
+{
+  display: flex;
+  background-color: #4e6f2e;
+  justify-content:space-between ;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.img-nav
+{
+  width: 80px;
+  height: 80px;
+}
+.logo
+{
+  color: #10bf22;
+  display: flex;
+}
+.nav-kanan
+{
+  display: flex;
+  flex-direction: row;
+}
+.search
+{
+  margin-right: 15px;
+  margin-top: 19px;
+}
+.input
+{
+  display: flex;
+}
+.searchinput
+{
+  padding: 7px;
+  display: inline-block;
+  border: none;
+  width: 250px;
+  text-align: center;
+}
+.buttonsearch
+{
+ display: inline-block;
+ background-color: #ffffff;
+ border: none;
+ cursor: pointer;
+}
+.exit
+{
+  margin-top: 5px;
+}
+.content
+{
+  padding: 40px 60px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.kiri
+{
+  width: 20%;
+}
+.list
+{
+  margin: auto;
+  padding: 0;
+  text-align: center;
+}
+.buttonlist
+{
+  margin-top: 5px;
+  margin-bottom: 5px;;
+  width: 100%;
+  padding: 20px;
+  border:none;
+  background-color: #4e6f2e;
+  cursor: pointer;
+  color: white;
+}
+.buttonlist:hover
+{
+  background-color: #11be18;
+}
+.kanan
+{
+  width: 80%;
+}
+.bgcontent
+{
+  display: flex;
+  background-color: rgba(78, 111, 46, 0.72);
+  padding: 10px;
+  margin-left: 10px;
+  margin-top: 5px;
+  flex-wrap: wrap;
+}
+.imgcontent
+{
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  background-color: #ffffff;
+  width: 198px;
+  margin: 10px;
+  min-width: 0;
+}
+.bgcontent1
+{ 
+  color: white;
+  display: flex;
+  position: center;
+  background-color: black;
+  padding: 10px;
+  margin-left: 10px;
+  margin-top: 5px;
+  flex-wrap: wrap;
+}
+.imgcontent1
+{
+  padding: 10px;
+  width: 198px;
+  margin: 10px;
+}
+.footer
+{
+  text-align: center;
+  background-color: #4e6f2e;
+  padding: 30px;
+  font-style: italic;
+}
+.imgc{
+  margin-left: 150px;
+}
+.imgct{
+  margin-left: 350px;
+}
