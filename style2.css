@@ -1,5 +1,4 @@
-body
-{
+body{
   background-image: url(img/bg2.jpg);
   font-family: Arial,Helvetica,sans-serif;
   height: 100%;
@@ -8,8 +7,7 @@ body
   margin: 0;
   background-repeat: no-repeat;
 }
-h1,h3,h5,h6
-{
+h1,h3,h5,h6{
   text-transform: capitalize;
 }
 h2{
@@ -17,21 +15,29 @@ h2{
   margin-bottom: -5px;
   font-family: Freestyle Script;
   color: #00CC00;
-  font-size: 50pt;
+  font-size: 48pt;
   text-shadow: 2px 2px black;
 }
 h4{
   text-align: left;
 }
-a
-{
+a{
   text-decoration: none;
 }
-li
+.d-block
 {
+  display: block!important;
+}
+.d-sticky
+{
+  position: sticky;
+  z-index: 1026;
+  top: 0;
+}
+li{
   list-style: none;
 }
-ahsg
+
 *{
   box-sizing: border-box;
 }
@@ -166,8 +172,75 @@ ahsg
   font-style: italic;
 }
 .imgc{
-  margin-left: 150px;
+  width: 100%;
+  text-align: center;
 }
-.imgct{
-  margin-left: 350px;
+.imgctn
+{
+  width: 100%;
+  text-align: center;
+}
+.Bantuan,.Bantuan1,.Bantuan2,.Bantuan3{
+  width: 90%;
+  text-align: center;
+  border-radius: 50px;
+  margin-left: 50px;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+input[type=text1]{
+  width: 90%;
+  border-bottom-width: 150px;
+  text-align: center;
+  margin-left: 50px;
+  margin-top: 10px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.Bantuan4{
+  width: 15%;
+  border-radius: 50px;
+  margin-left: 80%;
+  background-color: green;
+  margin-bottom: 15px;
+}
+.logog{
+  width: 20px;
+}
+.Ganti{
+  margin-left: 88%;
+  margin-bottom: 50px;
+}
+.bgcontent3{
+  color: white;
+  display: flex;
+  position: center;
+  background-color: white;
+  padding: 10px;
+  margin-left: 10px;
+  margin-top: 5px;
+  flex-wrap: wrap;
+  width: 122%;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+.lisa{
+  width: 100px;
+  border-radius: 50%;
+  margin-left: 45%;
+}
+.fontakun{
+  color: black;
+  text-align: center;
+  font-size: 20px;
+}
+.HAPUSAKUN{
+  margin-left: 80%;
+  background-color: red;
+  border-radius: 50px;
+}
+.SIMPAN{
+  margin-left: 5px;
+  background-color: green;
+  border-radius: 50px;
 }

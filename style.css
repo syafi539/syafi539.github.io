@@ -6,6 +6,10 @@ body{
 }
 
 /*PAGE HOME*/
+a{
+    color: white;
+    text-decoration: none;
+}
 .bodyhome{
     background: url(bg1.jpg);
     background-size: 100%;
@@ -144,8 +148,11 @@ button[type=google]{
     background: #4e6f2e;
     margin: 80px auto;
     padding: 30px 20px;
+    position: fixed;
+    background-repeat: no-repeat;
     border-radius: 30px;
     opacity: 0.9;
+    margin-left: 500px;
 }
 .form{
     width: 250px;
