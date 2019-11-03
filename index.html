@@ -1,9 +1,34 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-	<title>Halaman Awal</title>
+	<title>HOME</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
+	<button id="exambutton">Nama Kelompok</button>
+	<div id="exammodal" class="modal">
+	  <div class="modal-content">
+		<span class="close">&times;</span>
+		<p>Kelopok 20 Kelas F<br> MOHAMMAD SYAFI'UL ULUM (182410103041)<br> MUHAMMAD IZZAT RAHMAN (182410103086)</p>
+	  </div>
+	</div>
+	<script>
+		var modal = document.getElementById('exammodal');
+		var btn = document.getElementById("exambutton");
+		var span = document.getElementsByClassName("close")[0];
+		btn.onclick = function() {
+			modal.style.display = "block";
+		}
+		span.onclick = function() {
+			modal.style.display = "none";
+		}
+		window.onclick = function(event) {
+			if (event.target == modal) {
+				modal.style.display = "none";
+			}
+		}
+	</script>
+</head>
+</div>
 <body class="bodyhome">
 	<img src="logo.png" class="logo">
 	<h1 class="eop1">Enemies Of Plants</h1>
