@@ -1,0 +1,14 @@
+$(document).ready(function(){
+	$('#muncul').click(function(){
+		$('.isiJawaban').fadeToggle("slow");
+	})
+	$('#muncul2').click(function(){
+		$('.isiJawaban2').fadeToggle("slow");
+	})
+	$('#muncul3').click(function(){
+		$('.isiJawaban3').fadeToggle("slow");
+	})
+	$('#muncul4').click(function(){
+		$('.isiJawaban4').fadeToggle("slow");
+	})
+})

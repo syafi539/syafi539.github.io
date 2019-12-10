@@ -244,3 +244,13 @@ input[type=text1]{
   background-color: green;
   border-radius: 50px;
 }
+.isiJawaban,.isiJawaban2,.isiJawaban3,.isiJawaban4{
+  padding: 20px;
+  background-color: white;
+  margin-bottom: 15px!important;
+  border-radius: 5px;
+  color: black;
+  width: 90%;
+  margin: auto;
+  display: none;
+}
